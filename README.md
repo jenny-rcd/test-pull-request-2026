@@ -1,19 +1,19 @@
-# test-pull-request-2022
+# test-pull-request-2026
 
-Référentiel pour tester la pull request du cours [Introduction à la gestion de version à l’aide de git](https://juanluck.github.io/Introduction-GIT/).
+Référentiel pour tester la `pull request` du cours [Introduction à la gestion de version à l’aide de git](https://brunoLEGRIX.github.io/Introduction-GIT/).
 
 ## Instructions pour faire une pull request 
 
 ### 1. Faire un fork du référentiel actuel 
 
-- Accéder à ce référentiel https://github.com/juanluck/test-pull-request-2022
+- Accéder à ce référentiel https://github.com/brunoLEGRIX/test-pull-request-2026
 - Cliquez sur `fork` en haut à droite de github. 
 
 ![Fork](./images/fork.png)
 
-- Le fork vous permet de copier ce référentiel sur votre compte github. Désormais, vous pouvez travailler avec cette copie du référentiel original. Cela va vous permetre d'expérimenter librement et faire des modifications sans affecter le projet d'origine (celui dans le compte `juanluck`). 
+- Le fork vous permet de copier ce référentiel sur votre compte github. Désormais, vous pouvez travailler avec cette copie du référentiel original. Cela va vous permetre d'expérimenter librement et faire des modifications sans affecter le projet d'origine (celui dans le compte `brunoLEGRIX`). 
 
-- Voir qu'après le `fork`, vous avez une copie du référentiel dans votre propre espace `https://github.com/<votre_utilisateur>/test-pull-request-2022`
+- Voir qu'après le `fork`, vous avez une copie du référentiel dans votre propre espace `https://github.com/<votre_utilisateur>/test-pull-request-2026`
 
 - Créez un nouveau répertoire sur votre machine local (que vous pouvez appeler par exemple `tp4`) et clonez le référentiel depuis votre compte :
 
@@ -24,9 +24,9 @@ $ mkdir tp4
 $ ls
 tp1 tp2 tp3 tp4
 $ cd tp4
-$ git clone git@github.com:<votre_utilisateur>/test-pull-request-2022.git
+$ git clone git@github.com:<votre_utilisateur>/test-pull-request-2026.git
 ...
-$ cd test-pull-request-2022
+$ cd test-pull-request-2026
 ```
 
 - Voila, vous avez déjà une copie locale sur votre machine. **Attention !!**, n'apportez pas encore de modifications. Pour effectuer de tels changements, nous allons travailler avec une branche dans la section suivante. 
@@ -35,7 +35,7 @@ $ cd test-pull-request-2022
 
 Au lieu d'apporter des modifications au répertoire sur la branche `main` par défaut, nous allons travailler sur une nouvelle branche pour effectuer ces modifications.
 
-- Pour créer une branche, utilisez la commande suivante depuis le repertoire `test-pull-request-2022` :
+- Pour créer une branche, utilisez la commande suivante depuis le repertoire `test-pull-request-2026` :
 
 ```shell
 $ git checkout -b <new-branch-name> 
@@ -60,9 +60,9 @@ $ git push origin pull-request-demo-<votre_utilisateur>
 
 ### 3. Modifications sur la branche thématique `pull-request-demo-<votre_utilisateur>`
 
-En principe, nous pourrions apporter n'importe quel changement à partir de maintenant. Cependant, pour éviter de futurs conflits lorsque nous ferons la pull request sur [le réferentiel d'origin](https://github.com/juanluck/test-pull-request-2022), nous allons vous proposer de travailler sur un répertoire exclusif personnalisé et chiffré. 
+En principe, nous pourrions apporter n'importe quel changement à partir de maintenant. Cependant, pour éviter de futurs conflits lorsque nous ferons la pull request sur [le réferentiel d'origin](https://github.com/brunoLEGRIX/test-pull-request-2026), nous allons vous proposer de travailler sur un répertoire exclusif personnalisé et chiffré. 
 
-- Sous linux, la commande `shasum` permet d'obtenir le hash (checksum) de n'importe quelle chaîne de caractères ou fichier. Par example :
+- Sous linux, la commande `shasum` permet d'obtenir le hash (checksum) de n'importe quelle chaîne de caractères ou fichier. Par exemple :
 
 ```shell
 $ echo "John Smith" | shasum
@@ -104,9 +104,9 @@ Maintenant que les données d'une nouvelle branche ont été poussées vers gith
 
 ![Pull request](./images/openpr.png)
 
-- Bien que l'image puisse être un peu différente dans votre cas, l'idée d'une `pull request` est de demander à l'utilisateur du référentiel d'origine (`juanluck`) d'accepter les modifications apportées dans votre branche. Pour cela, assurez-vous que en `base` apparaît `main:juanluck` (destination de votre requête) et en `compare` la branche où vous avez effectué vos modifications (origine de votre requête). Vous pouvez également ajouter des comentaires et ensuite cliquez sur `Create pull request`.
+- Bien que l'image puisse être un peu différente dans votre cas, l'idée d'une `pull request` est de demander à l'utilisateur du référentiel d'origine (`brunoLEGRIX`) d'accepter les modifications apportées dans votre branche. Pour cela, assurez-vous que en `base` apparaît `main:brunoLEGRIX` (destination de votre requête) et en `compare` la branche où vous avez effectué vos modifications (origine de votre requête). Vous pouvez également ajouter des comentaires et ensuite cliquez sur `Create pull request`.
 
-- **Toutes nos félicitations!!** Vous venez de faire votre première pull request. Maintenant, tout ce que vous avez à faire est d'avoir un peu de patience pour que `juanluck` accepte les modifications sur le référentiel d'origine. Cette pratique que nous venons d'effectuer est la manière standard de collaborer dans un référentiel open source. 
+- **Toutes nos félicitations!!** Vous venez de faire votre première pull request. Maintenant, tout ce que vous avez à faire est d'avoir un peu de patience pour que `brunoLEGRIX` accepte les modifications sur le référentiel d'origine. Cette pratique que nous venons d'effectuer est la manière standard de collaborer dans un référentiel open source. 
 
 ### 5. Accepter une pull request 
 
